@@ -1,5 +1,15 @@
 # Yolov3 with Keras 정리 및 파일내용.
 
+## 사용한 라이브러리
+
+- python 3.7.3
+- keras 2.3.1
+- tensorflow 1.14.0
+- flask 2.2.6
+- [Yolo v3 Keras 구현체](https://github.com/qqwweee/keras-yolo3)
+
+## 샘플 이미지
+![링크](기록/detect.PNG)
 
 ## 데이터셋 라벨링
 
@@ -38,16 +48,7 @@
 - 사진을 업로드하여 저장하고, 검출 결과를 보여주는 웹페이지
 - 업로드 직후 욜로검출이 동작하며, CPU 에서 작업시 약 3~4초 정도 걸림.
 
-## 샘플 이미지
-![링크](기록/detect.PNG)
 
-## 사용한 라이브러리
-
-- python 3.7.3
-- keras 2.3.1
-- tensorflow 1.14.0
-- flask 2.2.6
-- [Yolo v3 Keras 구현체](https://github.com/qqwweee/keras-yolo3)
 
 ## 기타 
 - 작업 PC 사양 : I7-6700@3.4GHz, 8GB RAM
