@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<title>{% block title %}{% endblock %} - Yolo</title>
+<header>
+  {% include 'base/css.html' %}
+  {% include 'base/js.html' %}
+  {% block header %}{% endblock %}
+</header>
+<section class="content">
+  <div class="container">
+  {% include 'base/navbar.html' %}
+  {% block content %}{% endblock %}
+  </div>
+</section>

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+<div class="col-12 my-2 text-center">
+이 사이트는 포트폴리오용으로, 딥러닝 검출 모델 서비스를 제작<br>
+자체적으로 수집한 (학원 및 주변도로) 자료를 사용<br><b>사람 / 차 / 트럭 / 버스 / 신호등 / 표지판 / 나무 / 기둥 / 조원(참여자중 1명)</b><br> 등 9종의 요소를 검출합니다.<br>
+</div>
+
+
+<div class="col-12 my-2 text-center">
+코드 참고자료
+<br><a href="https://github.com/qqwweee/keras-yolo3">yolo v3 keras</a><br><br>
+</div>
+
+<div class="col-12 my-2 text-center">
+코드에서 사용된 주요 라이브러리 버젼<br>
+<p class="text">
+- python 3.7.3<br>
+- Keras 2.3.1<br>
+- tensorflow 1.14.0<br>
+- Flask 2.2.6<br>
+</p>
+</div>
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+Custom Image Detecting
+{% endblock %}
+{% block content %}
+
+{% if oimage %}
+  <div class="row">
+    <div class="col-sm-6">
+      <h4 class="text-center">Original Image</h4>
+      <img class="img b-border d-block m-3 mx-auto" src="{{oimage}}">
+    </div>
+    <div class="col-sm-6">
+      <h4 class="text-center">Obejct Detection</h4>
+      <img class="img b-border d-block m-3 mx-auto" src="{{pimage}}">
+    </div>
+  </div>
+
+{% else %}
+  <h1>no image for whatever reason</h1>
+{% endif %}
+  <div class="row">
+    <a class="text-center mx-auto" href="/upload">다른 사진 업로드 하기</a>
+  </div>
+
+
+{% endblock %}

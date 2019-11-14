@@ -1,0 +1,9 @@
+tree
+pillar
+minsick
+car
+truck
+bus
+person
+traffic light
+traffic signs
