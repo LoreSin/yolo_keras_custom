@@ -24,9 +24,9 @@
 ## xml_make.py
 
 - labeling 된 데이터를 사용하여 train.txt 의 규칙에 맞게 생성.
-    `이미지파일경로 x1,y1,x2,y2,class`
-    `이미지파일경로 x1,y1,x2,y2,class x1,y1,x2,y2,class`
-    하나의 사진에 여러개의 라벨링이 존재하므로, 하나의 사진에서 여러개의 class 존재.
+    - `이미지파일경로 x1,y1,x2,y2,class`
+    - `이미지파일경로 x1,y1,x2,y2,class x1,y1,x2,y2,class`
+    - 하나의 사진에 여러개의 라벨링이 존재하므로, 하나의 사진에서 여러개의 class 존재.
 
 - voc_accnotation.py 를 참조하여 작성 하였음.
 - 코드상에서 중복된 라벨을 하나로 취급할수 있는 처리도 가능함.
